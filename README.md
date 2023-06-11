@@ -35,6 +35,6 @@ npx serve . -p 5000
 npx serve . -p 6000
 ```
 
-Then visit `http://shop.example.com:6000`, you should NOT get a console error
+Then visit `http://shop.example.com:4000`, you should NOT get a console error
 
 Then visit `http://bad.example.com:6000`, you should get a console error 
