@@ -12,7 +12,14 @@ Environment:
 - Unix computer (Mac or PC running Linux)
 - docker
 - nodejs (>= v14)
-- `/etc/host` contains entries for used domains
+- `/etc/hosts` contains entries for used domains
+
+```sh
+127.0.0.1 api.example.com
+127.0.0.1 shop.example.com
+127.0.0.1 marketing.example.com
+127.0.0.1 bad.example.com
+```
 
 1. Go inside `api-server` and run 
 
