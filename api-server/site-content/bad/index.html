@@ -1,0 +1,11 @@
+<script>
+    fetch('http://api.example.com/data.json', { credentials: 'include' })
+    .then(r => {
+        console.log('[r]', r);
+        document.body.textContent = 'FAIL';
+    })
+    .catch(e => {
+        console.log('[e]', e);
+        document.body.textContent = 'PASS';
+    })
+</script>

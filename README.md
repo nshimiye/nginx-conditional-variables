@@ -21,7 +21,7 @@ Environment:
 127.0.0.1 bad.example.com
 ```
 
-1. Go inside `api-server` and run 
+1. Go inside `api-server` folder and run 
 
 ```sh
 docker compose up -d
@@ -34,7 +34,7 @@ npx serve . -p 4000
 
 3. Go inside `marketing` folder and run 
 ```sh
-npx serve . -p 5000
+npx serve . -p 5006
 ```
 
 4. Go inside `bad` folder and run 
