@@ -1,6 +1,6 @@
 # NGINX - conditional variables
 
-Medium article
+[Medium article](https://medium.com/friday-knowledge/nginx-conditional-variables-203abbb6e0da)
 
 ## Scenario
 We have our data stored on `http://api.example.com` and want to access it on `http://shop.example.com` and `http://marketing.example.com`.
